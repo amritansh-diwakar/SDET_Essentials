@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumHub" parallel="classes">
+    <test verbose="2" preserve-order="true" name="ParallelExecutionUsingDocker">
+        <classes>
+            <class name="remoteTesting.docker.hub.SeleniumHubTest1"/>
+            <class name="remoteTesting.docker.hub.SeleniumHubTest2"/>
+            <class name="remoteTesting.docker.hub.SeleniumHubTest3"/>
+        </classes>
+    </test>
+</suite>
